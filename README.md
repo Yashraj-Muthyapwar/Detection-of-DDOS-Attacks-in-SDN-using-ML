@@ -7,8 +7,10 @@ To run this DDOS attack prediction app, follow these steps:
         Decision Tree.ipynb
         Test.csv
         Train.csv
-        ddos.sav
-        ddos_app.py
+        ddos.sav (This is a copy of the locally run ddos.sav file on my pc.)
+    Run Decision Tree.ipynb to generate ddos.sav model file
+        This Jupyter notebook will train a Decision Tree model and save it to ddos.sav
+        Make sure ddos.sav is placed in the required files directory
     Install Streamlit if you don't already have it:
         Open a command prompt/terminal
         Run: pip install streamlit
@@ -20,7 +22,7 @@ To run this DDOS attack prediction app, follow these steps:
         On the sidebar, select "DDOS ATTACK PREDICTION"
         Enter values for each of the fields
         Click the "Ddos Result" button to generate a prediction
-        Refer to the "About" page for more info on each input field
+        To learn more about each input field, click the "About" page
 
 Important: Do not close the terminal window running the streamlit command - this will terminate the app.
 
