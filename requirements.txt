@@ -1,0 +1,14 @@
+numpy==1.23.0 
+pandas==1.5.0
+scikit-learn==1.2.0
+xgboost==1.7.0
+streamlit==1.19.0
+pickle-mixin==1.0.2
+
+Explanation of each package:
+numpy: Required for numerical operations and handling arrays.
+pandas: Used for data manipulation and analysis.
+scikit-learn: Provides machine learning algorithms and tools, including the LabelEncoder and metrics.
+xgboost: The XGBoost library for training and using the XGBoost model.
+streamlit: For building the web app interface.
+pickle-mixin: A compatible version of pickle for serializing and saving models (in my case, the ddos.sav file).
