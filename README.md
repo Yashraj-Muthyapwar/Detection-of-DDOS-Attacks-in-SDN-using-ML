@@ -8,11 +8,17 @@ To run this DDOS attack prediction app, follow these steps:
         Test.csv (Test dataset for prediction)
         Train.csv (Training dataset for model training)
         ddos.sav (This is the saved XGBoost model file generated from training.)
+        requirements.txt (File that contains the necessary dependencies for the app)
+    Install the required dependencies:
+        You can install all the necessary Python packages by running the following command in your terminal:
+        Run: pip install -r requirements.txt
+        This will install all the libraries listed in the requirements.txt file, including NumPy, pandas, scikit-learn, XGBoost, Streamlit, and others.
     Run XGBoost_Model.ipynb to generate the ddos.sav model file.
         This Jupyter notebook will train an XGBoost model on the provided network traffic data and save the trained model as ddos.sav.
         Make sure ddos.sav is placed in the required files directory.
-    Install Streamlit if you don't already have it:
-        Open a command prompt/terminal
+    Install Streamlit (Optional):
+        Streamlit is included in the requirements.txt file. If you have already installed the dependencies using the previous step, you do not need to install Streamlit separately.
+        However, if you prefer to install it manually, you can run the following command:
         Run: pip install streamlit
     Run the Streamlit app:
         In the terminal, navigate to the app directory
