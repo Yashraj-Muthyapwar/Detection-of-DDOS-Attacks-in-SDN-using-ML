@@ -25,7 +25,7 @@ Leverages machine learning to analyze network traffic features and predict poten
 
 ---
 
-# 🚀 How to Run the DDoS Attack Prediction System
+## 🚀 How to Run the DDoS Attack Prediction System
 ### 1️⃣ Project Requirements:
 Ensure the following files are present in the same directory:
 ```
@@ -63,17 +63,14 @@ Access the app via your default web browser.
 - Visit the **"About"** section for feature descriptions.
 
 ⚠️ Keep the terminal running Streamlit open during use.
----
 
-# 🛡 Key Features:
+## 🛡 Key Features:
 - ML-powered detection of DDoS attacks in SDN environments.
 - Uses XGBoost, a highly efficient gradient boosting algorithm.
 - User-friendly web interface built with Streamlit.
 - Real-time predictions based on customizable traffic attributes.
 
----
-
-# 📬 Feedback:
+## 📬 Feedback:
 If you find this repository helpful, please consider giving it a ⭐. Thanks!
 ---
 Contributions welcome. Built with ❤️ for scalable OTT data management.
