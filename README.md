@@ -72,5 +72,6 @@ Access the app via your default web browser.
 
 ## 📬 Feedback:
 If you find this repository helpful, please consider giving it a ⭐. Thanks!
+
 ---
-Contributions welcome. Built with ❤️ for scalable OTT data management.
+Contributions welcome. Built with ❤️ for securing SDN networks against evolving DDoS threats.
