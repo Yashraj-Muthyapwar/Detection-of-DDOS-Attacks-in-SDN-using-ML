@@ -26,37 +26,54 @@ Leverages machine learning to analyze network traffic features and predict poten
 ---
 
 # 🚀 How to Run the DDoS Attack Prediction System
-Running the DDOS Attack Prediction:
+### 1️⃣ Project Requirements:
+Ensure the following files are present in the same directory:
+```
+├── XGBoost_Model.ipynb      # Notebook to train and generate ddos.sav model
+├── Train.csv                # Training dataset
+├── Test.csv                 # Test dataset
+├── ddos.sav                 # Saved trained XGBoost model file
+├── ddos_app.py              # Streamlit web application
+├── requirements.txt         # List of project dependencies
+```
 
-To run this DDOS attack prediction app, follow these steps:
+### 2️⃣ Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+This will install all the libraries listed in the requirements.txt file, including NumPy, pandas, scikit-learn, XGBoost, Streamlit, etc.
 
-    Ensure you have all the required files in the same directory:
-        XGBoost.ipynb (This is the Jupyter notebook that trains the XGBoost model and saves it as 'ddos.sav').
-        Test.csv (Test dataset for prediction)
-        Train.csv (Training dataset for model training)
-        ddos.sav (This is the saved XGBoost model file generated from training.)
-        requirements.txt (File that contains the necessary dependencies for the app)
-    Install the required dependencies:
-        You can install all the necessary Python packages by running the following command in your terminal:
-        Run: pip install -r requirements.txt
-        This will install all the libraries listed in the requirements.txt file, including NumPy, pandas, scikit-learn, XGBoost, Streamlit, and others.
-    Run XGBoost_Model.ipynb to generate the ddos.sav model file.
-        This Jupyter notebook will train an XGBoost model on the provided network traffic data and save the trained model as ddos.sav.
-        Make sure ddos.sav is placed in the required files directory.
-    Install Streamlit (Optional):
-        Streamlit is included in the requirements.txt file. If you have already installed the dependencies using the previous step, you do not need to install Streamlit separately.
-        However, if you prefer to install it manually, you can run the following command:
-        Run: pip install streamlit
-    Run the Streamlit app:
-        In the terminal, navigate to the app directory
-        Run: streamlit run ddos_app.py
-        This will launch the app in your default web browser
-    Use the app:
-        On the sidebar, select "DDoS ATTACK PREDICTION".
-        Enter values for each of the fields related to network traffic features.
-        Click the "DDoS Result" button to generate a prediction of whether a DDoS attack is occurring based on the input values.
-        To learn more about each input field, click the "About" page.
-        
-Important: Do not close the terminal window running the streamlit command - this will terminate the app.
+### 3️⃣ Train the XGBoost Model (Optional if ddos.sav exists):
+Run the notebook:
+```bash
+XGBoost_Model.ipynb
+```
+Generates and saves `ddos.sav` (pre-trained model) based on network traffic data.
 
-This DDoS attack prediction app uses an XGBoost model trained on DDoS network traffic data. The input fields allow you to provide various network packet attributes. Once the data is entered, the app will predict whether a DDoS attack is happening based on the input features.
+### 4️⃣ Launch the Streamlit Web App:
+```bash
+streamlit run ddos_app.py
+```
+Access the app via your default web browser.
+
+### 5️⃣ Using the App:
+- Navigate to **"DDoS ATTACK PREDICTION"** in the sidebar.
+- Enter values for network traffic features.
+- Click **"DDoS Result"** to predict if a DDoS attack is happening.
+- Visit the **"About"** section for feature descriptions.
+
+⚠️ Keep the terminal running Streamlit open during use.
+---
+
+# 🛡 Key Features:
+- ML-powered detection of DDoS attacks in SDN environments.
+- Uses XGBoost, a highly efficient gradient boosting algorithm.
+- User-friendly web interface built with Streamlit.
+- Real-time predictions based on customizable traffic attributes.
+
+---
+
+# 📬 Feedback:
+If you find this repository helpful, please consider giving it a ⭐. Thanks!
+---
+Contributions welcome. Built with ❤️ for scalable OTT data management.
