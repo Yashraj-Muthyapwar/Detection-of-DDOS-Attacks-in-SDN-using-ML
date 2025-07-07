@@ -3,7 +3,6 @@
 <p align="center"><i>Machine Learning-based system for predicting DDoS attacks in Software Defined Networks (SDN)</i></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/last%20commit-today-blue" alt="last commit">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/XGBoost-FF6600?logo=xgboost&logoColor=white" alt="XGBoost">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
