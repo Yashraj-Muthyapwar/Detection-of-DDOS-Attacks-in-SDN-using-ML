@@ -23,7 +23,6 @@ This project implements a predictive system for detecting Distributed Denial-of-
 
 Leverages machine learning to analyze network traffic features and predict potential DDoS attacks in real time. The solution combines a trained XGBoost model with an interactive Streamlit interface for user-friendly predictions.
 
----
 
 ## 🚀 How to Run the DDoS Attack Prediction System
 ### 1️⃣ Project Requirements:
